@@ -1,0 +1,40 @@
+.banner{
+    background: url('../img/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.perfil-main{
+    height: 40rem;
+    border-radius: 6%;
+    border: white solid 0.4rem;
+}
+
+.myName{
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+@media (max-width: 576px) { 
+    .banner{
+        background-position: right;
+        height: 100vh;
+    }
+    .perfil{
+        height: 100%;
+    }
+ }
+
+ @media (min-width: 577px) and (max-width: 1200px){
+    .banner{
+        background-position: right;
+        height: 100vh;
+    }
+    .perfil{
+        height: 100%;
+    }
+ }
+
