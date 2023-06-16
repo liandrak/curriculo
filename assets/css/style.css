@@ -3,19 +3,21 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 55vh;
+    backdrop-filter: brightness(40%);
 }
 
 .perfil-main{
-    height: 40rem;
-    border-radius: 6%;
-    border: white solid 0.4rem;
+    height: 21rem;
+    border-radius: 5%;
+    border: white solid 0.3rem;
 }
 
 .myName{
-    align-items: center;
+    align-items: top;
     font-size: 30px;
     color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 576px) { 
