@@ -8,8 +8,8 @@
 }
 
 .perfil-main{
-    height: 21rem;
-    border-radius: 5%;
+    height: 34rem;
+    border-radius: 7%;
     border: white solid 0.3rem;
 }
 
@@ -38,5 +38,9 @@
     .perfil{
         height: 100%;
     }
+ }
+
+ .progress{
+    box-shadow: 10px 8px 3px rgb(219, 219, 219);
  }
 
